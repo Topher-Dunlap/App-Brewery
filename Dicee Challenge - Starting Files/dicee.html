@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 id="header">Click Button to Roll</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img id="img1" src="images/dice6.png" alt="Dice Image">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img id="img2" src="images/dice6.png" alt="Dice Image">
+      </div>
+
+      <br>
+
+      <button class="button" onclick = "srcSwapDice1(); srcSwapDice2(); winner()">  
+        roll the dice  
+      </button> 
+    </div>
+
+<script src="index2.js"></script>
+
+  </body>
+
+  <footer>
+    www 🎲 OKiE Apps 🎲 com
+  </footer>
+</html>
